@@ -1,14 +1,16 @@
 # QAT Artifacts Repository
 
-This repository hosts public artifacts from QA Automation Tool test runs.
+This repository hosts **public artifacts** from QA Automation Tool test runs.
 
 ## Purpose
 
-While the main QA automation code remains private, this repository provides:
-- Test execution summaries
+While the main QA automation code is private ([qa-automation-tool](https://github.com/rsmedstad/qa-automation-tool) - restricted access), this repository provides **public access** to:
+- Test execution summaries (`summary.json`)
 - Test results (Excel files)
-- Metadata for accessing media files
+- Run metadata and links
 - Historical test run data
+
+**No GitHub authentication required** - accessible by all team members.
 
 ## Structure
 
