@@ -1,0 +1,8 @@
+{
+  "run_id": "19612740519",
+  "timestamp": "2025-11-23T14:50:16Z",
+  "initiator": "Test",
+  "event": "workflow_dispatch",
+  "source_repo": "rsmedstad/qa-automation-tool",
+  "workflow_url": "https://github.com/rsmedstad/qa-automation-tool/actions/runs/19612740519"
+}
