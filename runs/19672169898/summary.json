@@ -1,0 +1,219 @@
+{
+  "runId": "run-1764079456327-muexr",
+  "crawlName": "QA Run",
+  "date": "2025-11-25T14:16:05.994Z",
+  "totalUrls": 50,
+  "passedUrls": 50,
+  "failedUrls": [],
+  "naUrls": 0,
+  "successCount": 50,
+  "failureCount": 0,
+  "naCount": 0,
+  "initiatedBy": "Pavani",
+  "testFailureSummary": {},
+  "urlResults": [
+    {
+      "url": "https://www.gehealthcare.com/",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.com/products/imaging",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.com/products/bone-and-metabolic-health",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.com/products/ultrasound",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.com/products/ultrasound/voluson",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.com/products/patient-care-solutions",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.com/products/patient-monitoring",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.com/products/molecular-imaging-agents",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.com/products/molecular-imaging-agents/cerianna",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.com/products/contrast-media",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.com/products/contrast-media/omnipaque",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.com/insights?showPopup=false",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.com/about/newsroom",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.co.uk/",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.co.uk/products/imaging",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.co.uk/products/computed-tomography",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.co.uk/products/ultrasound",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.co.uk/products/ultrasound/voluson",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.co.uk/specialties/patient-care-solutions",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.co.uk/products/patient-monitoring",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.co.uk/products/molecular-imaging-agents",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.co.uk/products/molecular-imaging-agents/datscan",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.co.uk/products/contrast-media",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.co.uk/products/contrast-media/gadobutrol",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.co.uk/insights",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.de/",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.de/products/imaging",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.de/products/patient-monitoring",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.de/products/contrast-media",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.de/products/contrast-media/omnipaque",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.de/products/nuclear-imaging-agents",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.de/products/nuclear-imaging-agents/datscan",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.de/insights/articles",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.de/insights/news",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.fr/",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.fr/products/imaging",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.fr/products/magnetic-resonance-imaging",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.fr/products/ultrasound",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.fr/insights/articles",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.in/",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.in/products/imaging",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.in/products/computed-tomography",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.in/products/ultrasound",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.in/products/ultrasound/logiq",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.in/products/contrast-media",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.in/products/contrast-media/omnipaque",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.in/insights?showPopup=false",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.in/about/newsroom",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.in/products/anesthesia-delivery",
+      "passed": true
+    },
+    {
+      "url": "https://www.gehealthcare.in/products/diagnostic-ecg",
+      "passed": true
+    }
+  ],
+  "screenshot_paths": [],
+  "video_paths": [],
+  "environment": "production"
+}
