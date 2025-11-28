@@ -1,0 +1,8 @@
+{
+  "run_id": "19764658801",
+  "timestamp": "2025-11-28T13:17:33Z",
+  "initiator": "Pavani",
+  "event": "workflow_dispatch",
+  "source_repo": "rsmedstad/qa-automation-tool",
+  "workflow_url": "https://github.com/rsmedstad/qa-automation-tool/actions/runs/19764658801"
+}
