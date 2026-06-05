@@ -1,0 +1,8 @@
+{
+  "run_id": "27018498691",
+  "timestamp": "2026-06-05T13:57:38Z",
+  "initiator": "tc13-nav-diagnostic",
+  "event": "workflow_dispatch",
+  "source_repo": "rsmedstad/qa-automation-tool",
+  "workflow_url": "https://github.com/rsmedstad/qa-automation-tool/actions/runs/27018498691"
+}
