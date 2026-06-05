@@ -1,0 +1,8 @@
+{
+  "run_id": "27020849733",
+  "timestamp": "2026-06-05T14:42:19Z",
+  "initiator": "geo-mismatch-audit",
+  "event": "workflow_dispatch",
+  "source_repo": "rsmedstad/qa-automation-tool",
+  "workflow_url": "https://github.com/rsmedstad/qa-automation-tool/actions/runs/27020849733"
+}
