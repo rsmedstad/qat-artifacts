@@ -1,0 +1,8 @@
+{
+  "run_id": "27017693978",
+  "timestamp": "2026-06-05T13:41:53Z",
+  "initiator": "networkidle-tc13-fix",
+  "event": "workflow_dispatch",
+  "source_repo": "rsmedstad/qa-automation-tool",
+  "workflow_url": "https://github.com/rsmedstad/qa-automation-tool/actions/runs/27017693978"
+}
