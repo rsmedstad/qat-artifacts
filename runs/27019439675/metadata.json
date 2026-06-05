@@ -1,0 +1,8 @@
+{
+  "run_id": "27019439675",
+  "timestamp": "2026-06-05T14:16:09Z",
+  "initiator": "tc13-geo-tc15-16-verify",
+  "event": "workflow_dispatch",
+  "source_repo": "rsmedstad/qa-automation-tool",
+  "workflow_url": "https://github.com/rsmedstad/qa-automation-tool/actions/runs/27019439675"
+}
