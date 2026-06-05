@@ -1,0 +1,8 @@
+{
+  "run_id": "27022107661",
+  "timestamp": "2026-06-05T15:05:32Z",
+  "initiator": "anti-headless-geo-fix",
+  "event": "workflow_dispatch",
+  "source_repo": "rsmedstad/qa-automation-tool",
+  "workflow_url": "https://github.com/rsmedstad/qa-automation-tool/actions/runs/27022107661"
+}
