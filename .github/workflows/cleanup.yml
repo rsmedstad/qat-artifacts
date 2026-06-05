@@ -5,23 +5,61 @@ on:
     - cron: '0 3 */3 * *'  # every 3 days at 3am UTC (same as main repo)
   workflow_dispatch:
 
+permissions:
+  contents: write   # needed to push the cleanup commit (default token is read-only)
+
 jobs:
   cleanup:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history so we can fall back to git add-date
 
-      - name: Remove old artifacts
+      - name: Remove run folders older than 60 days
         run: |
-          # Remove directories older than 60 days
-          find runs -maxdepth 1 -type d -mtime +60 -exec rm -rf {} \; 2>/dev/null || true
+          set -euo pipefail
+          cutoff=$(date -u -d '60 days ago' +%s)
+          echo "Cutoff (UTC epoch): $cutoff  ($(date -u -d @"$cutoff"))"
+          removed=0
+          [ -d runs ] || { echo "No runs/ directory; nothing to do."; exit 0; }
+
+          for dir in runs/*/; do
+            dir=${dir%/}
+            meta="$dir/metadata.json"
+            ts=""
+
+            # Preferred: the run timestamp recorded in metadata.json
+            if [ -f "$meta" ]; then
+              ts=$(jq -r '.timestamp // empty' "$meta" 2>/dev/null || true)
+            fi
+
+            # Resolve to epoch; fall back to the git commit that added the folder
+            epoch=""
+            if [ -n "$ts" ]; then
+              epoch=$(date -u -d "$ts" +%s 2>/dev/null || true)
+            fi
+            if [ -z "$epoch" ]; then
+              epoch=$(git log --diff-filter=A --format=%ct -1 -- "$dir" 2>/dev/null || true)
+            fi
+            if [ -z "$epoch" ]; then
+              echo "WARN: no timestamp for $dir; keeping it."
+              continue
+            fi
+
+            if [ "$epoch" -lt "$cutoff" ]; then
+              rm -rf "$dir"
+              removed=$((removed + 1))
+            fi
+          done
+          echo "Removed $removed old run folder(s)."
 
       - name: Commit cleanup
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
+          git add -A
           git diff --staged --quiet || {
-            git commit -m "Cleanup: Remove artifacts older than 60 days"
+            git commit -m "Cleanup: remove run artifacts older than 60 days [skip ci]"
             git push
           }
