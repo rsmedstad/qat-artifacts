@@ -1,8 +1,0 @@
-{
-  "run_id": "25364630673",
-  "timestamp": "2026-05-05T08:10:34Z",
-  "initiator": "scheduled",
-  "event": "schedule",
-  "source_repo": "rsmedstad/qa-automation-tool",
-  "workflow_url": "https://github.com/rsmedstad/qa-automation-tool/actions/runs/25364630673"
-}
