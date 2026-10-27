@@ -1,3 +1,5 @@
+> **Archived 2026-10-27.** Read-only record of past QA Automation Tool runs. The project is frozen and no new results are published. Do not delete or make private: the qa-automation-tool dashboard links to these run files.
+
 # QA Automation Tool - Public Artifacts
 
 This repository hosts **public artifacts** from QA Automation Tool test runs, providing team-wide access to test results without requiring GitHub authentication.
